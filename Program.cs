@@ -10,7 +10,7 @@ namespace Проект_1.Приветствие
     {
         static void Main(string[] args)
         {
-            Int32 year, age, month, day, dayToday, monthToday, yearToday;
+            int year, age, month, day, dayToday, monthToday, yearToday;
             DateTime now = DateTime.Now;
             monthToday = now.Month; 
             dayToday = now.Day; 
@@ -29,14 +29,16 @@ namespace Проект_1.Приветствие
                     if (year >= 2020)
                     {
                         Console.WriteLine("Вы ввели некоректный год рождения, попробуйте снова");
+                        Console.ReadLine();
                         continue;
                     }
 
                     Console.WriteLine("Назовите месяц вашего рождения.");
                     month = byte.Parse(Console.ReadLine());
-                    if (month > 13 || month < 1)
+                    if (month > 12 || month < 1)
                     {
                         Console.WriteLine("такого месяца не существует, попробуйте снова");
+                        Console.ReadLine();
                         continue;
                     }
 
@@ -45,18 +47,21 @@ namespace Проект_1.Приветствие
                     if (day > 31 || day < 1)
                     {
                         Console.WriteLine("Вы ввели некоректную дату, попробуйте снова");
+                        Console.ReadLine();
                         continue;
                     }
                     if (month == 2 && day > 29)
                     {
 
                         Console.WriteLine("Вы ввели некоректный день, попробуйте снова");
+                        Console.ReadLine();
                         continue;
                     }
 
                     if (month == 2 && day == 29 && (year % 4 != 0 || (year % 100 == 0 && year % 400 != 0)))
                     {
                         Console.WriteLine("Этот год не високосный, 29ое ферваля не допустимая дата");
+                        Console.ReadLine();
                         continue;
                     }
 
