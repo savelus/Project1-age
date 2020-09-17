@@ -1,0 +1,7 @@
+C:\Users\Lenovo\source\repos\Проект 1. Приветствие\Проект 1. Приветствие\bin\Debug\Проект_1.Приветствие.exe.config
+C:\Users\Lenovo\source\repos\Проект 1. Приветствие\Проект 1. Приветствие\bin\Debug\Проект_1.Приветствие.exe
+C:\Users\Lenovo\source\repos\Проект 1. Приветствие\Проект 1. Приветствие\bin\Debug\Проект_1.Приветствие.pdb
+C:\Users\Lenovo\source\repos\Проект 1. Приветствие\Проект 1. Приветствие\obj\Debug\Проект 1. Приветствие.csprojAssemblyReference.cache
+C:\Users\Lenovo\source\repos\Проект 1. Приветствие\Проект 1. Приветствие\obj\Debug\Проект 1. Приветствие.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\Проект 1. Приветствие\Проект 1. Приветствие\obj\Debug\Проект_1.Приветствие.exe
+C:\Users\Lenovo\source\repos\Проект 1. Приветствие\Проект 1. Приветствие\obj\Debug\Проект_1.Приветствие.pdb
